@@ -23,6 +23,7 @@
   "homepage": "https://github.com/angelikabrown/WhatsTypescript#readme",
   "dependencies": {
     "@types/typescript": "^0.4.29",
+    "rimraf": "^6.0.1",
     "typescript": "^5.8.3"
   }
 }
