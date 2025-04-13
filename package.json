@@ -1,0 +1,28 @@
+{
+  "name": "whatstypescript",
+  "version": "1.0.0",
+  "description": "what is typescript?",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "npm run clean && tsc",
+    "start": "npm run build && node dist/index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angelikabrown/WhatsTypescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/angelikabrown/WhatsTypescript/issues"
+  },
+  "homepage": "https://github.com/angelikabrown/WhatsTypescript#readme",
+  "dependencies": {
+    "@types/typescript": "^0.4.29",
+    "typescript": "^5.8.3"
+  }
+}
