@@ -4,16 +4,16 @@
   "description": "what is typescript?",
   "main": "index.js",
   "scripts": {
-    "clean": "rimraf dist",
-    "build": "npm run clean && tsc",
-    "start": "npm run build && node dist/index.js",
+    "start":"npm run build && node dist/index.js",
+    "build":"npm run clean && tsc",
+    "clean":"rimraf dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/angelikabrown/WhatsTypescript.git"
   },
-  "keywords": [],
+  "keywords": ["css", "typescript"],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
@@ -23,7 +23,10 @@
   "homepage": "https://github.com/angelikabrown/WhatsTypescript#readme",
   "dependencies": {
     "@types/typescript": "^0.4.29",
-    "rimraf": "^6.0.1",
-    "typescript": "^5.8.3"
+    "typescript": "^5.8.3",
+    "parcel": "^2.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.2.0"
   }
 }
+
