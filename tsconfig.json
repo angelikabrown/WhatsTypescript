@@ -1,11 +1,10 @@
 {
-   "compilerOptions": {
-     "module": "commonjs",
-     "esModuleInterop": true,
-     "target": "es6",
-     "moduleResolution": "node",
-     "sourceMap": true,
-     "outDir": "dist"
-   },
-   "lib": ["es2015", "es2016.dom"]
- }
+  "compilerOptions": {
+    "target": "es6",
+    "outDir": "./dist",
+    "rootDir": "./",
+    "strict": true,
+    "esModuleInterop": true
+  },
+  "include": ["type.ts"]
+}
